@@ -1,2 +1,4 @@
-blog/.vitepress/dist/
-blog/.vitepress/cache/
+
+./blog/.vitepress/dist/
+
+./blog/.vitepress/cache/
