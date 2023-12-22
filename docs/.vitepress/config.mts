@@ -1,29 +1,53 @@
-import { defineConfig } from 'vitepress'
+import { DefaultTheme, defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'en-US',
   title: "Learn with Ishtiaq",
   description: "A blog for learning",
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    nav: nav(),
+
+    sidebar: {
+      '/notes/': { base: '/notes/', items: sidebarNotes() },
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
+
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: 'Home',
+      link: '/',
+    },
+    {
+      text: 'Notes',
+      link: '/notes/content',
+    },
+    {
+      text: 'About Me',
+      link: '/me/index'
+    }
+  ]
+}
+
+function sidebarNotes(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: 'Linux',
+      collapsed: false,
+      items: [
+        {text: 'Getting Started With Linux', link: '/linux',}
+      ]
+    },
+  ]
+}
