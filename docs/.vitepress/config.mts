@@ -46,8 +46,21 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
       text: 'Linux',
       collapsed: false,
       items: [
-        {text: 'Getting Started With Linux', link: '/linux',}
+        {text: 'Getting Started With Linux', link: '/linux'}
       ]
     },
+    {
+      text: 'Networking',
+      collapsed: false,
+      items: [
+        {
+          text: 'Networking Fundamentals',
+          collapsed: false,
+          items: [
+            {text: 'Network Devices', link: '/network-devices'}
+          ]
+        },
+      ]
+    }
   ]
 }
