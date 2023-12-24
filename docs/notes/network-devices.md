@@ -57,6 +57,8 @@ Connecting hosts directly to each other doesn't scale. We need a single device t
 
 **Routers** faciliate communication between networks. A router provides a traffic control point (security, filtering, redirecting). Routers learn whcih networks they are attached to. The knowledge of each of these different networks are known as **Routes**. All routes are stored in **Routing Table**. A router has an ip address in every network that they are attached to. This ip address is know as a **Gateway**, each host's way out of their local network. Router creates the hierarchy in Networks and the entire Internet.
 
+## More
+
 There are many other Network Devices:
 
 - Access Points
@@ -68,4 +70,6 @@ There are many other Network Devices:
 - Virtual Switches (Used in Cloud)
 - Virtual Routers (Used in Cloud)
 
-All of them perform Routing and/or Switching
+All of them perform Routing and/or Switching.
+
+To know more visit [Network Devices: Types, Functions and Best Practices for Security Management](https://blog.netwrix.com/2019/01/08/network-devices-explained/).
