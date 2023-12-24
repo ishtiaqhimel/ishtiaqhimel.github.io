@@ -25,7 +25,7 @@ An **IP Address** is the identity of each host. In each request, the client is g
 
 An ip address is just `32 bits`. A bit is `1` or `0`. It is broken to four Octets (`8 bits`) and conveted into decimal (Ex. `172.68.0.1`). Each Octet can be `0` - `255`. This ip addresses are assigned in terms of some hierarchically order (known as **Subnetting**). Lets see the figure below-
 
-[!IP Hierarchy](/art/ip-hierarchy.png)
+![IP Hierarchy](../../art/ip-hierarchy.png)
 
 Here, `10.30.55.127` hosts at ACME in London Branch in Sales Team.
 
