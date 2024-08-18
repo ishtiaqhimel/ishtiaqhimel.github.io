@@ -61,6 +61,13 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
           ]
         },
       ]
+    },
+    {
+      text: 'GitHub Actions',
+      collapsed: false,
+      items: [
+        {text: 'Getting Started With GitHub Actions', link: '/github-actions'}
+      ]
     }
   ]
 }
