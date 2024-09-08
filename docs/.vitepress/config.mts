@@ -3,8 +3,8 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  title: "Learn with Ishtiaq",
-  description: "A blog for learning",
+  title: "Ishtiaq's Notebook",
+  description: "Keeping My Learning Materials Organized",
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -46,7 +46,7 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
       text: 'Linux',
       collapsed: false,
       items: [
-        {text: 'Getting Started With Linux', link: '/linux'}
+        {text: 'Getting Started With Linux', link: '/linux/intro'}
       ]
     },
     {
@@ -66,7 +66,7 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
       text: 'GitHub Actions',
       collapsed: false,
       items: [
-        {text: 'Getting Started With GitHub Actions', link: '/github-actions'}
+        {text: 'Getting Started With GitHub Actions', link: '/github-actions/intro'}
       ]
     }
   ]

@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Learn with Ishtiaq"
-  text: "A blog for learning"
-  tagline: My great project tagline
+  name: "Ishtiaq's Notebook"
+  text: "Keeping My Learning Materials Organized"
+  tagline: Organize, Access, Learn – Anytime, Anywhere
   actions:
     - theme: brand
       text: Notes
@@ -13,13 +13,5 @@ hero:
     - theme: alt
       text: About ME
       link: /me/index
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
