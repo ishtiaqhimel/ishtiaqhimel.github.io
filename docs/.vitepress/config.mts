@@ -68,6 +68,13 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
       items: [
         {text: 'Getting Started With GitHub Actions', link: '/github-actions/intro'}
       ]
+    },
+    {
+      text: 'Golang',
+      collapsed: false,
+      items: [
+        {text: 'Concurrency', link: '/golang/concurrency'}
+      ]
     }
   ]
 }
