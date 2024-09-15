@@ -73,7 +73,8 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
       text: 'Golang',
       collapsed: false,
       items: [
-        {text: 'Concurrency', link: '/golang/concurrency'}
+        {text: 'Concurrency', link: '/golang/concurrency'},
+        {text: 'Concurrency Pattern', link: '/golang/concurrency-patterns'}
       ]
     }
   ]
