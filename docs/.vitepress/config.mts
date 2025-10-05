@@ -17,7 +17,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ishtiaqhimel' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/md-ishtiaq-islam/' }
     ]
   }
 })
@@ -44,18 +45,18 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Linux',
-      collapsed: false,
+      collapsed: true,
       items: [
         {text: 'Getting Started With Linux', link: '/linux/intro'}
       ]
     },
     {
       text: 'Networking',
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           text: 'Networking Fundamentals',
-          collapsed: false,
+          collapsed: true,
           items: [
             {text: 'Network Devices', link: '/network-devices'}
           ]
@@ -64,17 +65,26 @@ function sidebarNotes(): DefaultTheme.SidebarItem[] {
     },
     {
       text: 'GitHub Actions',
-      collapsed: false,
+      collapsed: true,
       items: [
         {text: 'Getting Started With GitHub Actions', link: '/github-actions/intro'}
       ]
     },
     {
       text: 'Golang',
-      collapsed: false,
+      collapsed: true,
       items: [
         {text: 'Concurrency', link: '/golang/concurrency'},
         {text: 'Concurrency Pattern', link: '/golang/concurrency-patterns'}
+      ]
+    },
+    {
+      text: 'Python',
+      collapsed: true,
+      items: [
+        {text: 'Basic Syntax', link: '/python/basic-syntax'},
+        {text: 'Variables', link: '/python/variables'},
+        {text: 'data-types', link: '/python/data-types'},
       ]
     }
   ]
