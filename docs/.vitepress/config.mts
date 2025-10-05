@@ -8,7 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    logo: {src: '/logo.svg', width: 24, height: 24},
 
     nav: nav(),
 
